@@ -1,18 +1,81 @@
-Stock Investment Strategy is dashboard for investor to check 2 similar stocks and view their ratio. It develops a trigger for investor to check better investment option to when to invest and when to sell.
+# 📈 Stock Investment Strategy Dashboard
 
-Strategies :
-- Continuously fetched and presented 2 stocks data, its ratio using Python, React and Visualize in Perspective
-- Calculated upper & lower bound, 50 day moving average and generated alert for investor to build a strategy
+## 🚀 Overview
 
-Steps to execute:
-1. CLone the repo on local system
- 
- For backend:
- 1. Go to the folder using terminal
- 2. Inside the folder go to datafeed folder
- 3. Execute following command: python server3.py
- 
- For frontend:
- 1. Go to the folder using terminal
- 2. If executing for the first time execute following comman : npm install
- 3. Execute following command: npm start
+This project is a **real-time stock analysis dashboard** designed to help investors compare two similar stocks and make informed decisions on **when to buy or sell**.
+
+It provides:
+- Live stock data visualization  
+- Ratio comparison between stocks  
+- Technical indicators for decision-making  
+- Automated alerts based on strategy thresholds  
+
+---
+
+## 🎯 Objective
+
+To build a system that:
+- Continuously tracks and compares two stocks  
+- Calculates key financial indicators  
+- Helps investors identify **optimal entry and exit points**  
+
+---
+
+## 🧠 Key Features
+
+- 📊 Real-time stock data fetching  
+- 📈 Ratio comparison between two stocks  
+- 📉 50-day moving average calculation  
+- 📌 Upper and lower bound threshold detection  
+- 🔔 Alerts for buy/sell decision-making  
+- 📉 Interactive dashboard visualization  
+
+---
+
+## 🏗️ Architecture
+
+---
+
+## ⚙️ Tech Stack
+
+**Backend:**
+- Python  
+- Data processing & financial calculations  
+
+**Frontend:**
+- React  
+- Perspective (data visualization)  
+
+---
+
+## 📊 Strategy Logic
+
+The system evaluates stock performance using:
+
+- **Stock Ratio Comparison**
+  - Compare price movement between two stocks  
+
+- **Moving Average (50-day)**
+  - Identify trend direction  
+
+- **Upper & Lower Bounds**
+  - Detect overbought / oversold conditions  
+
+### 🔔 Alerts
+- Trigger signals when:
+  - Ratio crosses defined thresholds  
+  - Price deviates from moving average  
+
+---
+
+## 📁 Project Structure
+
+---
+
+## 🛠️ Setup Instructions
+
+### 🔹 Clone Repository
+
+```bash
+git clone <your-repo-url>
+cd <repo-name>
